@@ -184,12 +184,3 @@ sns.kdeplot(data=mart,x='PassengerId',y='Survived')
 ```
 data = np.random.randint(low = 1, high = 100, size = (10,10))
 hm=sns.heatmap(data=data,annot=True)
-```
-![image](https://github.com/Kalpanareshma/EXNO-6-DS/assets/122040453/9fb6c87b-fe9c-4c73-b7f8-6758b9f5c37f)
-```
-hm=sns.heatmap(data=data)
-```
-![image](https://github.com/Kalpanareshma/EXNO-6-DS/assets/122040453/12f0265a-2d04-4087-adcb-1778588da21e)
-
-# Result:
-  Thus, all the data visualization techniques of seaborn has been implemented.
